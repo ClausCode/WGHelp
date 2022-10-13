@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'com.claus'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly files("libs/spigot.jar")
+}
